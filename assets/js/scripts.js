@@ -26,6 +26,8 @@ function todo_list_add() {
 	indice++;
 	codigo = "tarefa" + indice;
 	lista.innerHTML = lista.innerHTML
-		+ '<input type="checkbox" id="'+ codigo +'" name="'+ codigo +'" value="'+ tarefa.value +'">'
-		+ '<label for="'+ codigo +'">'+ tarefa.value +'</label><br>';
+		+ '<input type="checkbox" class="hidden-box" id="'+ codigo +'" name="'+ codigo +'" value="'+ tarefa.value +'">'
+		+ '<label class="check--label" for="'+ codigo +'">'+ tarefa.value +'</label><br>';
 }
+
+//https://codepen.io/derekmorash/pen/Eydxab/
