@@ -56,3 +56,9 @@ imprimir('Função com parâmetros impressa com sucesso.');
                 //instrução
               }
 */
+
+var funcaoArrowFunction = () => {
+  console.log('Sou uma arrow function!');
+}
+
+funcaoArrowFunction();
